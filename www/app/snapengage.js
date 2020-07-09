@@ -5,7 +5,7 @@ define(function () {
       se.type = "text/javascript";
       se.async = true;
       se.src =
-        "https://storage.googleapis.com/snapabug-hr-staging/js/fa38df51-e81c-4bda-9284-831331f6352b.js";
+        "https://storage.googleapis.com/snapabug-hr-staging/js/" + widgetId;
       var done = false;
       se.onload = se.onreadystatechange = function () {
         if (

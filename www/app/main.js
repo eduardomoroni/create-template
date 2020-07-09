@@ -11,5 +11,5 @@ define(function (require) {
   var print = require("print");
 
   print(messages.getHello());
-  snapengage.loadSnapEngage();
+  snapengage.loadSnapEngage("fa38df51-e81c-4bda-9284-831331f6352b.js");
 });
